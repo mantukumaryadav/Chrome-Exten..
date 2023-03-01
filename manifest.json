@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Page Content",
+  "version": "1.0",
+  "description": "A Chrome extension to copy the content of the current page to the clipboard",
+  "permissions": ["clipboardWrite", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
